@@ -29,7 +29,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    border: 1px dotted gray;
+    border: 2px dashed gray;
     text-align: center;
     width: 100%;
 }
@@ -101,19 +101,22 @@ main{
     color: #ddd6d6;
 }
 .insha input{
-    border: 1px solid black;
+    outline: none;
     padding: 25px;
     width: 450px;
     border-radius: 25px;
+    font-size: 15px;
 }
 .insha .btn{
     padding: 25px;
-    width: 200px;
+    width: 200px;  
+    border: none;
 }
 footer{
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
+    margin-bottom: 0;
 }
 .box{
     background-color: #c4aaaa;
