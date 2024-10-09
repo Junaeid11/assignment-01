@@ -11,7 +11,7 @@
     font-size: 20px;
     border: 2px solid black;
     background: rgb(12, 12, 12);
-    color: antiquewhite; 
+    color: rgb(255, 255, 255); 
      padding: 15px;
     border-radius: 25px;
 
@@ -28,10 +28,15 @@
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 550px;
     border: 2px dashed gray;
     text-align: center;
     width: 100%;
+    padding: 20px;
+}
+.hero p{
+    padding: 20px 100px;
+    
 }
 .sec{
     margin: 35px;
@@ -40,6 +45,9 @@
 }
 .web{
     text-align: center;
+}
+.web p{
+    padding: 15px;
 }
 .card{
     display: flex;
