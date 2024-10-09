@@ -82,6 +82,7 @@
     text-align: left;
     padding: 45px;
     border-radius: 15px;
+    margin-top: 25px;
 
     
 }
@@ -90,7 +91,6 @@ main{
    background-size: cover;
    height: 500px;
    border-radius: 20px;
-
     background-repeat: no-repeat;
 
 }
@@ -101,6 +101,7 @@ main{
     color: #ddd6d6;
 }
 .insha input{
+    border: 1px solid rgb(16, 15, 15);
     outline: none;
     padding: 25px;
     width: 450px;
@@ -116,16 +117,26 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
-    margin-bottom: 0;
+    font-size: 10px;
+
 }
-.box{
-    background-color: #c4aaaa;
+.box1,.box2,.box3{
+    background: rgba(255, 248, 30, 0.05);
     width: 250px;
     padding: 25px;
     height: 300px;
     padding-top: 55px;
     border-radius: 25px;
 }
+
+.box2{
+background: rgba(255, 76, 30, 0.05);
+}
+.box3{
+
+    background: rgba(0, 76, 232, 0.05);
+}
+
 .boxup{
     display: flex;
     justify-content: space-around;
