@@ -4,19 +4,15 @@
 }
 .nav{
     display: flex;
+    font-size: 25px;
     justify-content: space-between;
-    /* position: sticky;
-    background: transparent;
-    top: 0; */
-    /* backdrop-filter:blur(10px); */
 }
 .btn{
     font-size: 20px;
     border: 2px solid black;
     background: rgb(12, 12, 12);
-    color: antiquewhite;
-
-    padding: 15px;
+    color: antiquewhite; 
+     padding: 15px;
     border-radius: 25px;
 
 }
@@ -33,34 +29,52 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-   
+    border: 1px dotted gray;
     text-align: center;
+    width: 100%;
 }
 .sec{
-    margin: 55px;
+    margin: 35px;
     background-color: rgba(227, 230, 233, 0.494);
-    padding: 20px;
+    padding: 40px;
 }
 .web{
     text-align: center;
 }
 .card{
     display: flex;
-  
+    padding: 40px;
+    margin-bottom: 25px;
     align-content: center;
+    background-color: rgba(255, 255, 255, 0.506);
 }
-.card .fi{
+.card .fi {
     margin: 20px;
+    line-height: 25px;
     padding-top: 15px;
 }
-.cardi{
-
+.card2{
+    margin-bottom: 25px;
+    line-height: 25px;
+    padding-top: 15px;
     display: flex;
+    background-color: rgba(255, 255, 255, 0.506);
+}
+.card p , .card2 p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
 }
 .ins{
     text-align: center;
     padding: 20px;
+    margin: 25px;
+
 }
+.ins p{
+    padding: 25px;
+}
+
 .targ{
     display: flex;
     border: 2px solid black;
